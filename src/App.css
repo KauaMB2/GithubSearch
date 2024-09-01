@@ -1,0 +1,116 @@
+#mainContainer {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 500px;
+  padding: 1rem;
+  margin-top: 2.5rem;
+  background-color: rgb(15, 15, 15);
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+#inputDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  background-color: rgb(15, 15, 15);
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#inputDiv input {
+  border: none;
+  background-color: rgb(15, 15, 15);
+  width: 50%;
+  color: rgb(238, 238, 238);
+}
+
+#inputDiv input:focus {
+  outline: none;
+}
+
+#searchButton {
+  background-color: rgb(51, 51, 165);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 2.5em;
+  padding: 0 1.2em;
+  align-self: center;
+  font-weight: bold;
+  color: rgb(238, 238, 238);
+  border: 2px solid rgb(51, 51, 165);
+}
+
+#searchButton:hover {
+  transition: background-color 0.4s;
+  background-color: rgb(15, 15, 15);
+}
+#profileLink{
+  display: block;
+  width: 40%;
+  margin: auto;
+}
+#userPhoto {
+  background: linear-gradient(to bottom right, rgb(192, 0, 160), rgb(38, 0, 255));
+  border-radius: 50%;
+  padding: 0.6em;
+  width: 100%;
+}
+
+#userName {
+  display: block;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+#userName a{
+  text-decoration: none;
+  color: rgb(238, 238, 238);
+}
+
+#userName a:hover{
+  text-decoration: underline;
+}
+
+.repository {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  background-color: rgb(25, 25, 25);
+  border-radius: 8px;
+}
+
+.repositoryLink {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(238, 238, 238);
+  width: 100%;
+}
+
+.repositoryLink:hover {
+  text-decoration: underline;
+}
+
+.column1 {
+  display: flex;
+  gap: 10px;
+  color: rgb(238, 238, 238);
+}
+
+.star {
+  display: flex;
+  align-items: center;
+}
+
+#starIcon {
+  cursor: pointer;
+  width: 2em;
+  height: 2em;
+}
